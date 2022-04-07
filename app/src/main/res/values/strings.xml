@@ -1,25 +1,21 @@
 <resources>
     <string name="app_name">OpenEvents</string>
-    <string name="singIn">SING IN</string>
+    <string name="signIn">SING IN</string>
     <string name="title_login">OpenEvents 2.0</string>
     <string name="noAccount">Don\'t have an account?</string>
-    <string name="SingUp">Sing Up</string>
+    <string name="SignUp">Sign Up</string>
     <string name="password_hint">Your password</string>
     <string name="email_hint">Your email</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
 
 
-
-
     <string name="sign_up">Sign up</string>
-    <string name="email">Email</string>
     <string name="email_placeholder">Your email</string>
     <string name="first_name">First Name</string>
     <string name="first_name_placeholder">Your First Name</string>
     <string name="last_name">Last Name</string>
     <string name="last_name_placeholder">Your Last Name</string>
-    <string name="password">Password</string>
     <string name="profile_image">Profile Picture</string>
     <string name="profile_image_placeholder">img.jpg</string>
 </resources>

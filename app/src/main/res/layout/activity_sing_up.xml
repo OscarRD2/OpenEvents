@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".SingUpActivity">
 
     <TextView
         android:id="@+id/textViewSignUp"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textViewEmail"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="30dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="19dp"
@@ -39,8 +39,8 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -51,7 +51,7 @@
 
     <TextView
         android:id="@+id/textViewFirstName"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
         android:text="@string/first_name"
@@ -62,8 +62,8 @@
 
     <EditText
         android:id="@+id/editTextFirstName"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/first_name_placeholder"
@@ -73,7 +73,7 @@
 
     <TextView
         android:id="@+id/textViewLastName"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
         android:text="@string/last_name"
@@ -84,8 +84,8 @@
 
     <EditText
         android:id="@+id/editTextLastName"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/last_name_placeholder"
@@ -95,7 +95,7 @@
 
     <TextView
         android:id="@+id/textViewPassword"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
         android:text="@string/password"
@@ -106,8 +106,8 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="30dp"
@@ -115,7 +115,7 @@
 
     <TextView
         android:id="@+id/textViewPassword2"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
         android:text="@string/password"
@@ -126,8 +126,8 @@
 
     <EditText
         android:id="@+id/editTextPassword2"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="30dp"
@@ -135,7 +135,7 @@
 
     <TextView
         android:id="@+id/textViewProfilePicture"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/profile_image"
@@ -146,8 +146,8 @@
 
     <EditText
         android:id="@+id/editTextLastName2"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/profile_image_placeholder"
