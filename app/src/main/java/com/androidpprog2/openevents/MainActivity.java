@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Linkear pag Registro -> VICTOR
                 Intent i = new Intent(MainActivity.this, SplashScreenActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
         });
