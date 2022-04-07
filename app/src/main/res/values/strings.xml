@@ -12,5 +12,14 @@
 
 
 
-
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="email_placeholder">Your email</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_placeholder">Your First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_placeholder">Your Last Name</string>
+    <string name="password">Password</string>
+    <string name="profile_image">Profile Picture</string>
+    <string name="profile_image_placeholder">img.jpg</string>
 </resources>
