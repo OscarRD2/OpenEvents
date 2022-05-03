@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenEvents">
         <activity
-            android:name=".LoginActivity"
+            android:name=".CreateEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingUpActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
@@ -23,7 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
