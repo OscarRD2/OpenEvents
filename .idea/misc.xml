@@ -3,15 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.321875" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.257" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/text_fields.xml" value="0.257" />
         <entry key="app/src/main/res/layout/activity_create_event.xml" value="0.20814361572265627" />
         <entry key="app/src/main/res/layout/activity_create_event2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18018018018018017" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.18271484375000002" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/layout/activity_sing_up.xml" value="0.18075069851345482" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.30868380932097755" />
+        <entry key="app/src/main/res/layout/fragment_amigos.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_calendar.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.28557402698706225" />
+        <entry key="app/src/main/res/layout/fragment_friends.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_music.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/menu.xml" value="0.2320281982421875" />
+        <entry key="app/src/main/res/menu/bottonMenu.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/menu/botton_menu.xml" value="0.29523925781250004" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_IconApp.xml" value="0.2315" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_IconApp_round.xml" value="0.224" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
