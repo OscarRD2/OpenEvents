@@ -1,28 +1,24 @@
 package com.androidpprog2.openevents.fragments;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.androidpprog2.openevents.R;
 
 
-public class FragmentMusic extends AppCompatActivity {
+public class FragmentMusic extends Fragment {
 
-
-    public static Fragment fragment() {
-        return fragment();
-    }
-
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_music);
-        getSupportActionBar().hide();
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_music, container, false);
 
+        return v;
     }
-
-
-
-
 }

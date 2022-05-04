@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, SingUpActivity.class);
+                                                                    //SingUpActivity
+                Intent i = new Intent(MainActivity.this, Menu.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
