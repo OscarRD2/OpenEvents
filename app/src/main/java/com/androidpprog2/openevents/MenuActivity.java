@@ -17,7 +17,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.ArrayList;
 
 
-public class Menu extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
     private ArrayList<Fragment> fragments = new ArrayList<Fragment>();
 
 
@@ -25,6 +25,8 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        getSupportActionBar().hide();
+
 
         BottomNavigationView navView = findViewById(R.id.bottomNavigationView);
 
@@ -56,21 +58,16 @@ public class Menu extends AppCompatActivity {
     }
 
     private void createFragmentsList() {
-        fragments.add(new FragmentFriends());
+        fragments.add(new FragmentFavorites());
         fragments.add(new FragmentCalendar());
         fragments.add(new FragmentMusic());
-        fragments.add(new FragmentFavorites());
+        fragments.add(new FragmentFriends());
 
 
     }
 
 
-    public void openFragment(Fragment fragment) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.flContainerView, fragment);
-        transaction.addToBackStack(null);
-        transaction.commit();
-    }
+
 
 
 

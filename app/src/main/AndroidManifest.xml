@@ -13,6 +13,9 @@
             android:name=".CreateEventActivity"
             android:exported="false" />
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".SingUpActivity"
             android:exported="false" />
         <activity

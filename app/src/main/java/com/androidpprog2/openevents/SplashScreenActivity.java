@@ -11,7 +11,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        getSupportActionBar().hide(); //Ocultar Menu superior de la pantalla
+        getSupportActionBar().hide(); //Ocultar MenuActivity superior de la pantalla
 
         new Handler().postDelayed(new Runnable() {
             @Override
