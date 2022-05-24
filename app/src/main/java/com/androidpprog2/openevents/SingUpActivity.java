@@ -3,6 +3,7 @@ package com.androidpprog2.openevents;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class SingUpActivity extends AppCompatActivity {
 
@@ -11,6 +12,11 @@ public class SingUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
         getSupportActionBar().hide();
+
+        EditText editTextFirstName
+
+
+
 
     }
 }
